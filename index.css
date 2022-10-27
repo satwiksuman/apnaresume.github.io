@@ -1,0 +1,218 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: lightyellow;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+/* CSS for Resume Form */
+
+/* #form{
+    display: none;
+} */
+
+#resume{
+    display: none;
+}
+
+/* Header Section */
+#head1{
+    margin-top: -6.5rem;
+    background-color: aquamarine;
+    height: 10rem;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Content Section */
+#con1{
+   margin-top: 2rem;
+   font-size: 3rem;
+   margin-left: 2rem;
+}
+
+#con2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 2rem;
+}
+
+.con21{
+    margin-left: 20rem;
+    margin-right: 2rem;
+}
+
+.con211{
+font-size: 2.5rem;
+}
+
+.con212{
+font-size: 2rem;
+}
+
+.con213{
+ width: 70%;
+ height: 3rem;
+ border-radius: 1.2rem;
+ border: 0.1rem solid black;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add{
+height: 6rem;
+vertical-align: text-top;
+}
+
+.btn{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 41%;
+    margin-right: auto;
+    background-color: black;
+    border: 0.01rem solid black;
+    width: 18%;
+    height: 4rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+
+/* CSS for Resume Template */
+#head2{
+ font-size: 7rem;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-align: center;
+ margin-bottom: 0rem;
+}
+
+#head3{
+   text-align: center;
+   margin-top: 0rem;
+}
+
+.head31{
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.head4{
+    font-size: 3rem;
+   
+}
+
+/* .head5{
+    font-weight:bolder;
+} */
+
+
+
+
+
+
+/* CSS for Responsivness */
+@media screen and (max-width:1000px){
+    .btn{
+        margin-left: 38%;
+        width: 24%;
+        height: 4rem;
+        font-size: 2rem;
+    }  
+}
+
+@media screen and (max-width:800px){
+    .btn{
+        margin-left: 36%;
+        width: 28%;
+        height: 4rem;
+        font-size: 2rem;
+    }  
+}
+
+@media screen and (max-width:700px){
+    .btn{
+        margin-left: 35%;
+        width: 30%;
+        height: 4rem;
+        font-size: 2rem;
+    }  
+
+    .con213{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .btn{
+        margin-left: 33%;
+        width: 34%;
+        height: 4rem;
+        font-size: 2rem;
+    } 
+
+    #head1{
+        font-size: 4rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        height: 10rem;
+    }
+
+    .con213{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:560px){
+    #con2{
+        display: block;
+    }
+}
+
+@media screen and (max-width:500px){
+    .btn{
+        margin-left: 29%;
+        width: 42%;
+        height: 4rem;
+        font-size: 2rem;
+} 
+
+#head1{
+    font-size: 3.5rem;
+    padding-top: 2.9rem;
+    padding-bottom: 2.9rem;
+    height: 8rem;
+}
+
+#con21{
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+}
+
+@media screen and (max-width:400px){
+    .btn{
+        margin-left: 27%;
+        width: 46%;
+        height: 4rem;
+        font-size: 1.7rem;
+} 
+
+#head1{
+    font-size: 3rem;
+    padding-top: 3.5rem;
+    padding-bottom: 1.5rem;
+    height: 8rem;
+}
+}
